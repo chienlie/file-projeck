@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Contoh HTML Canvas tag</title>
+  <style>
+    canvas {
+      background: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>Contoh HTML5 Canvas</h3>
+  <canvas id="kanvasGambar" height="200" width="300">
+    <!-- Teks ini muncul apabila browser tidak mendukung HTML5 canvas -->
+    <p>Browser Anda tidak mendukung HTML5 Canvas</p>
+  </canvas>
+
+  <script>
+    var kanvas = document.getElementById("kanvasGambar");
+    var konteks = kanvas.getContext("2d");
+    konteks.fillStyle = "rgb(255,0,0)";
+    konteks.fillRect(10, 50, 150, 50);
+    konteks.fillStyle = "rgb(255,255,255)";
+    konteks.fillRect(10, 100, 150, 50);
+  </script>
+
+  <p>
+    <strong>Keterangan:</strong> blok kotak hitam (diberi style CSS) adalah area kanvas yang merupakan HTML element
+    <code>canvas</code>, sedangkan kotak merah-putih dibuat dengan script (javascript) yang berkaitan dengan HTML5
+    canvas (Canvas API).
+  </p>
+</body>
+
+</html>
