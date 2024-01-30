@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    
+}
+body{
+    background: #394867;
+}
+.layout{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.sidebar{
+    border-right: 2px white solid;
+    height: 100%;
+    width: 300px;
+    background-color:#212A3E ;
+    position: absolute;
+}
+
+.isi .text-theme img{
+    width: 65px;
+    height: 65px;
+}
+.text-theme{
+    font-size: 15px;
+    display: flex;
+    color: white;
+}
+.text-theme h2{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.isi hr{
+    width: 280px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+/*menu*/
+.menu {
+    margin-top: 15px;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.menu a{
+    color: white;
+    text-transform: uppercase;
+    margin-top: 30px;
+    cursor: pointer;
+    opacity: 0.7;
+    text-decoration: none;
+
+}
+
+/*lougout*/
+.logout{
+    display: flex;
+    gap: 10px;
+    margin-top: 360px;
+    margin-left: 20px;
+}
+.logout img{
+    width: 2rem;
+    height: 2rem;
+}
+.logout a{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+}
+.text{
+    color: white;
+    font-family: 'poppins';
+}

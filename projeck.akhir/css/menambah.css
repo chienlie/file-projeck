@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#394867 ;
+}
+header{
+    background: #212A3E;
+    width: 100%;
+    height: 65px;
+}
+/*isi header*/
+.header-isi{
+    display: flex;
+}
+/*link headee*/
+.link-header{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.link-header a{
+    color: white;
+}
+/*data header*/
+.data-header{
+    display: flex;
+    margin-left: 180px;
+    gap: 60px;
+}
+.data-header img{
+    width: 60px;
+    height: 60px;
+}
+.data-header h2{
+    color: white;
+    margin-top: 10px;
+    font-size: 34px;
+}
+/*blok dari body*/
+.block{
+    width: 1200px;
+    height: 600px;
+    background: white;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 30px;
+}
+.isi{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 15px;
+    line-height: 70px;
+}
+.isi .pilih{
+    font-weight: bold;
+    margin-left: 40px;
+    background: transparent;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100px;
+    height: 30px;
+}
+.isi span{
+    font-size: 20px;
+        font-family: 'poppins';
+}
+.isi input{
+    width: 200px;
+}
+.isi .infut{
+    
+    margin-left: 40px;
+    background: transparent;
+    border:none ;
+    border-bottom: 2px solid black;
+    width: 200px;
+    height: 25px;
+}
+.isi .infut:focus{
+outline: none;
+padding-left: 10px;
+    margin-left: 40px;
+    background: transparent;
+    border:none ;
+    border-bottom: 2px solid black;
+    width: 200px;
+    height: 25px;
+}
+/*button kirim*/
+.kir{
+
+    margin-left: 300px;
+    margin-top: 80px;
+}
+.kirim{
+    width: 400px;
+    height: 40px;
+    background-color: #212A3E;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.keterangan-kirim{
+    display: flex;
+}
+.keterangan-kirim textarea {
+    width: 500px;
+    height: 150px;
+    background-color: #212A3E;
+    border-radius: 10px;
+    color: white;
+    margin-left: 30px;
+}
+.img-room img{
+    width: 250px;
+    height: 350px;
+    margin-left: 1100px;
+    margin-top: 319px;
+}
